@@ -9,4 +9,4 @@ jobs:
       # ソースコードのチェックアウト
       - checkout
       # unittestコマンドの実行
-      - run: python test_calculation.py
+      - run: python test_calculations.py
