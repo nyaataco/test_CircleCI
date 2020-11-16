@@ -16,4 +16,4 @@ jobs:
           # マイグレーションの実行
           python manage.py migrate
           # Djangoのテストの実行
-          python manage.py test
+          python manage.py tests
