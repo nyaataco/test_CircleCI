@@ -1,4 +1,4 @@
-from django import form
+from django import forms
 
 from menu.models import Tea, TEA_KINDS
 
