@@ -12,8 +12,8 @@ jobs:
           python3.6 -m venv venv
           source ./venv/bin/activate
           pip install django==1.11.7
-          cd cafe/apps
+          cd django_cafe/apps
           # マイグレーションの実行
           python manage.py migrate
           # Djangoのテストの実行
-          python manage.py tests
+          python manage.py test
