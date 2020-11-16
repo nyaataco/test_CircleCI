@@ -1,5 +1,5 @@
-from django.test import TestCase as DjangoTest
 import unittest
+from django.test import TestCase as DjangoTest
 from menu.models import Tea
 from menu.forms import TeaSearchForm
 
