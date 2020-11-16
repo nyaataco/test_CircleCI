@@ -1,6 +1,6 @@
 from django import form
 
-from menu.models imoport Tea, TEA_KINDS
+from menu.models import Tea, TEA_KINDS
 
 class TeaSearchForm(forms.Form):
     name = forms.CharField(label="名前", max_length=255, required=False)
